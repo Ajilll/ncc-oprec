@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ncc-service:alpine
+    container_name: ncc_health_container
+    ports:
+      - "8000:8000" # Mapping port host:container
+    restart: unless-stopped # Container otomatis menyala lagi jika VPS restart
+    env_file:
+      - .env
