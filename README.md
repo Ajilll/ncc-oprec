@@ -6,9 +6,9 @@ Endpoint merespons request HTTP GET di path /health. Jika berhasil diakses, endp
 
 ### 3. Screenshot Bukti Endpoint
 <img width="814" height="209" alt="{A7AFAB74-ABFF-4411-9727-70C57A270426}" src="https://github.com/user-attachments/assets/6a922cb3-c559-4c9a-9cb6-e50ef6279ef5" />
-<img width="802" height="207" alt="{FE44526E-1E26-4A77-84A3-E8E6808034AC}" src="https://github.com/user-attachments/assets/6a4ad013-64fc-491b-b5c2-88a5285097d1" />
+<img width="839" height="204" alt="{E03F3493-9313-49AD-8196-F962BC1AC1C8}" src="https://github.com/user-attachments/assets/0cb13a18-2fa7-453d-b8ed-328bd90b7a40" />
 <br>
-Link : https://hardcore-screen-flagman.ngrok-free.dev/health
+Link : http://104.214.179.229/health
 
 ### 4. Penjelasan Proses Build dan Run Docker
 Build: Pembuatan image Docker menggunakan teknik Multi-stage build dengan base image python:3.11-alpine untuk sangat menekan ukuran image akhir. Telah diimplementasikan juga .dockerignore untuk mencegah build context yang tidak perlu masuk. Di dalam Dockerfile juga telah disematkan instruksi HEALTHCHECK.
